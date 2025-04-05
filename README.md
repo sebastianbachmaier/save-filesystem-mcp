@@ -1,7 +1,7 @@
 # Filesystem MCP
 
 
-> ![WARNING] 
+> [!WARNING]
 > Should not be able to modify files in other folders then specified root folder but this needs to be seen ...
 
 
@@ -10,7 +10,7 @@ The agent should not be able to modify files in other folders outside the root f
 
 ### How to install:
 
-> ![WARNING] 
+> [!TIP]
 > You need > Node.js 12 to run this MCP. You might need to use it over nvm or similar.
 
 Modify e.g. your Clause MCP config e.g. under MAC via (see also [claude documentation](https://modelcontextprotocol.io/quickstart/user)):
