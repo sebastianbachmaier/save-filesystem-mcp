@@ -11,5 +11,5 @@ export const write = async ({
     content: string;
 }): Promise<CallToolResult> => {
     const absolutePath = path.join(root, file);
-    return execForMcpSave(`echo "${content}" > ${absolutePath} && ls ${absolutePath}`, [absolutePath]);
+    return execForMcpSave(`echo "${content.replace('`', '``')}" > ${absolutePath} && ls ${absolutePath}`, [absolutePath]);
 }
